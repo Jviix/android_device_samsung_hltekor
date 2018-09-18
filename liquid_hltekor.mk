@@ -14,12 +14,12 @@
 # limitations under the License.
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/hltekor/full_hlte.mk)
 
 PRODUCT_DEVICE := hltekor
-PRODUCT_NAME := pixys_hltekor
+PRODUCT_NAME := liquid_hltekor
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_ARCH := arm
