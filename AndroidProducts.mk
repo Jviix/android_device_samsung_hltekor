@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-$(LOCAL_DIR)/liquid_hltekor.mk
+$(LOCAL_DIR)/liquid.mk
